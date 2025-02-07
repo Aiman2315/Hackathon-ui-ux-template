@@ -1,7 +1,4 @@
 import { title } from "process";
-// import mainlaptop from "@/app/public/assets/contents/Rectangle 70.png"
-// import blogbook from "@/app/public/assets/contents/Rectangle 68.png"
-// import blog from "@/app/public/assets/contents/Rectangle 68.png"
 import { StaticImageData } from "next/image";
 
 

@@ -84,7 +84,7 @@ const page = () => {
                   id="name"
                   type="text"
                   placeholder="Abc"
-                  className="mt-1 block w-full border rounded-md px-5 py-2 text-[#9F9F9F] border-[#9F9F9F] mb-8 "
+                  className="mt-1 block w-full border rounded-md px-5 py-2 text-black border-[#9F9F9F] mb-8"
                 />
               </div>
 
@@ -94,7 +94,7 @@ const page = () => {
                   id="email"
                   type="email"
                   placeholder="ABC@email.com"
-                  className="mt-1 block w-full border rounded-md px-5 py-2 text-[#9F9F9F] border-[#9F9F9F] mb-8"
+                  className="mt-1 block w-full border rounded-md px-5 py-2 text-black border-[#9F9F9F] mb-8"
                 />
               </div>
 
@@ -104,7 +104,7 @@ const page = () => {
                   id="subject"
                   type="text"
                   placeholder="This is an Optional"
-                  className="mt-1 block w-full border rounded-md px-5 py-2 text-[#9F9F9F] border-[#9F9F9F] mb-8"
+                  className="mt-1 block w-full border rounded-md px-5 py-2 text-black border-[#9F9F9F] mb-8"
                 />
               </div>
 
@@ -114,7 +114,7 @@ const page = () => {
                   id="message"
                   placeholder="Hi! I'd like to ask about!"
                   rows={4}
-                  className="mt-1 block w-full border rounded-md px-5 py-2 text-[#9F9F9F] border-[#9F9F9F] mb-8"
+                  className="mt-1 block w-full border rounded-md px-5 py-2 text-black border-[#9F9F9F] mb-8"
                 />
               </div>
               <br />

@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Footer from '@/app/components/footer'
 import TextData from '@/app/components/Textdata'
 import Navbar from '@/app/components/Navbar'
-import Productlist from '@/app/productlist/[id]/page'
+import Productlist from '@/app/productlist/product/page'
 
 const page = () => {
   return (
@@ -32,7 +32,7 @@ const page = () => {
             <Image src="/bi_view-list.png" height={25} width={25} alt='viewList' className='sm:h-[25px] h-[25px] w-[25px] text-black'/>
             <Image src="/Line 5.png" height={10} width={25} alt='line5' className='h-10 justify-start ml-5 text-black'/>
           <div className='flex flex-row justify-'>
-              <h2 className='text-nowrap sm:text-lg text-sm px-4 mt-1'>Showing 1–16 of 32 results </h2>
+              <h2 className='text-nowrap sm:text-lg text-sm px-4 mt-1'>Showing 1-16 of 32 results </h2>
           </div>
           </div>
           <div className='flex flex-row justify-center items-center gap-4 ml-20 px-10'>
