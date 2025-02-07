@@ -24,7 +24,7 @@ const Hero = () => {
     useEffect(() => {
       checkWindowSize()
       
-    }, [isDesktop])
+    }, [checkWindowSize])
     
   return (
     <div className='flex justify-center items-center gap-[50px] h-[800px] bg-[#FBEBB5] py-32 px-32'>
