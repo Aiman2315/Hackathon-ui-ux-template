@@ -5,7 +5,7 @@ import config from '@/sanity/config/client-config'
 
 export async function getProjects(): Promise<Product[]>{
     return createClient(config).fetch(
-        groq`*[ _type == 'product']{
+        groq`*[ _type == "product"]{
             _id,
             _createdAt,
             name,
@@ -18,3 +18,18 @@ export async function getProjects(): Promise<Product[]>{
     )
 }
 
+export async function getProject(slug: string): Promise<Product>{
+    return createClient(config).fetch(
+        groq`*[ _type == "product" && slug.current == $slug][0]{
+            _id,
+            _createdAt,
+            name,
+            "slug": slug.current,
+            "image": image.asset->url,
+            price,
+            description,
+            stockLevel,
+        }`,
+        { slug } 
+    )
+} 

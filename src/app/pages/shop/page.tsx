@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Image from 'next/image'
 import Footer from '@/app/components/footer'
 import TextData from '@/app/components/Textdata'

@@ -1,5 +1,4 @@
-'use client'
-    
+
 import Footer from "@/app/components/footer"
 import Navbar from "@/app/components/Navbar"
 import TextData from "@/app/components/Textdata"
