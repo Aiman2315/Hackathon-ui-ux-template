@@ -20,8 +20,8 @@ const Navbar = () => {
 
   return (
     <header>
+      <div className=" container mx-40 font-semibold text-2xl font-serif">HOME VIBE</div>
       <div className="container mx-auto flex justify items-center py-4 px-80 ">
-
         {/* Desktop Menu */}
         <nav className="container mx-auto hidden lg:flex gap-16 font-medium px-48 py-5 font-Poppins">
           <Link href="/pages/home">Home</Link>
