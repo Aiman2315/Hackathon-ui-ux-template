@@ -8,9 +8,6 @@ import { Product } from '@/types/product-type'
 import { addToCart } from '@/app/addtocart/addtocart'
 import product from '@/sanity/schemaTypes/product'
 
-
-
-
 const Productlist = async () => {
   const products = await getProjects()
 
@@ -21,7 +18,7 @@ const Productlist = async () => {
   return (
     <div className='grid sm:grid-cols-4 grid-cols-2 gap-4 sm:m-0 m-2 justify-items-end'>
       { products.map((prod) => (
-        <Link key={prod._id} href={'/product'}>
+        <Link key={prod._id} href={'/cart'}>
 
       <div  className='col-span-1  h-[450px]  gap-2 justify-center items-end rounded-lg shadow-lg text-center'>
         <Image src={prod.image} height={300} width={300} alt='sofa' className=' sm:h-[300px] h-[200px] sm:w-[300px] w-[200px] object-contain' />
@@ -38,10 +35,7 @@ const Productlist = async () => {
       </div>
         </Link>
       ))}
-      
-   
     </div>
   )
 }
-
 export default Productlist
