@@ -23,7 +23,7 @@ const Navbar = () => {
       <div className=" container mx-40 font-semibold text-2xl font-serif">HOME VIBE</div>
       <div className="container mx-auto flex justify items-center py-4 px-80 ">
         {/* Desktop Menu */}
-        <nav className="container mx-auto hidden lg:flex gap-16 font-medium px-48 py-5 font-Poppins">
+        <nav className="container mx-auto hidden lg:flex gap-16 font-medium px-48 py-5 font-Poppins border-b-2 border-black">
           <Link href="/pages/home">Home</Link>
           <Link href="/pages/shop">Shop</Link>
           <Link href="/pages/about">About</Link>
